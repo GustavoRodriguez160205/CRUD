@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CRUD en JavaScript con localStorage</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <section class="crud">
+      <h1 class="crud__title">Crud de Usuario</h1>
+      <!-- Formulario -->
+      <form id="formRegister" class="crud__form">
+        <input type="text" placeholder="nombre" id="nameInput" class="form__input" required>
+        <input type="email" placeholder="email" id="emailInput" class="email__input">
+        <button type="submit" id="submitButton" class="button button__primary">Enviar</button>
+      </form>
+      <!-- Empezamos con la tabla -->
+      <table class="crud__table">
+        <thead>
+          <tr>
+            <th class="table__header">Nombre</th>
+            <th class="table__header">Email</th>
+            <th class="table__header">Acciones</th>
+          </tr>
+        </thead>
+        <tbody id="tableBody" class="table__body">
+        </tbody>
+      </table>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

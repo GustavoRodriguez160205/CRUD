@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+US+Trad:wght@100..400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body , button , input{
+  font-family: "Playwrite NG Modern", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.container{
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.crud__title{
+   text-align: center;
+}
+
+.crud__form{
+   display: flex;
+   margin: 10px 0 ;
+}
+
+.form__input, .email__input{
+  flex: 1;
+  padding: 5px;
+  margin-right: 10px;
+  font-size: 1.6rem;
+}
+
+.button{
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+  transition: all  0.4s ;
+}
+
+.button:hover{
+  transform: scale(1.2);
+}
+
+.button__primary{
+   background-color: green;
+   color: #fff;
+}
+
+
+.button__secundary{
+  background-color:  blue;
+  color: #fff;
+}
+
+
+.button__tertiary{
+  background-color:  red;
+  color: #fff;
+}
+
+
+.crud__table{
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table__header , .table__body , td{
+  border: 1px solid #ccc;
+  padding: 9px;
+}
+
+.table__header{
+  background-color: #f0f0f0;
+}
+
+
+.table__body td:nth-child(3){
+   display: flex;
+   justify-content: space-around;
+}
