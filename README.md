@@ -13,9 +13,3 @@ Eliminar:    Eliminar usuarios de la lista.
 JavaScript
 HTML
 CSS
-Estructura del Proyecto
-El proyecto está estructurado de la siguiente manera:
-
-index.html: Contiene la estructura HTML de la interfaz de usuario.
-styles.css: Archivo CSS para dar estilo a la página HTML.
-app.js: Archivo JavaScript que maneja las operaciones CRUD utilizando localStorage.
